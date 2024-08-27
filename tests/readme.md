@@ -49,3 +49,7 @@ flowchart TB
     1. Assuming RBAC succeeds…
 5. CPI to SystemProgram for transferring the lamports to Charlie’s EOA.
 6. CPI to SystemProgram for refunding the paymaster from sender’s account (Bob’s PDA).
+
+## TODO
+[ ] Add RBAC check to transfer ixn.
+[ ] Add SPL Token support.
