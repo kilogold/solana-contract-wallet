@@ -6,6 +6,7 @@ flowchart TB
   end
  subgraph s3["Bob's Wallet Client"]
         n5["SE API"]
+        n15["Web3.js"]
   end
  subgraph s1["Smart Contract Wallet"]
         n2["Program"]
@@ -51,5 +52,5 @@ flowchart TB
 6. CPI to SystemProgram for refunding the paymaster from sender’s account (Bob’s PDA).
 
 ## TODO
-[ ] Add RBAC check to transfer ixn.
-[ ] Add SPL Token support.
+- [ ] Add RBAC check to transfer ixn.  
+- [ ] Add SPL Token support.
